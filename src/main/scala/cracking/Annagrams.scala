@@ -1,4 +1,4 @@
-package hackerank
+package cracking
 
 import scala.collection.mutable.ListBuffer
 

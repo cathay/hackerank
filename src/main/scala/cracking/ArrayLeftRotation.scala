@@ -1,4 +1,4 @@
-package hackerank
+package cracking
 
 object ArrayLeftRotation {
 
