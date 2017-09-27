@@ -82,17 +82,7 @@ object Statistics {
 //  }
 
   def main(args: Array[String]): Unit = {
-    val stdin = scala.io.StdIn
-    val mealCost = stdin.readDouble()
-    val tipPercent = stdin.readInt()
-    val taxPercent = stdin.readInt()
-
-//    println(BigDecimal(mealCost * tipPercent/100).setScale(1, RoundingMode.HALF_UP).doubleValue)
-//    println(BigDecimal(mealCost * taxPercent/100).setScale(1, RoundingMode.HALF_UP).doubleValue)
-    val totalCost = mealCost + mealCost * tipPercent/100 + mealCost * taxPercent/100
-    //+ BigDecimal(mealCost * tipPercent/100).setScale(1, RoundingMode.HALF_UP).doubleValue
-    //+ BigDecimal(mealCost * taxPercent/100).setScale(1, RoundingMode.HALF_UP).doubleValue
-
-    println(Math.round(BigDecimal(totalCost).setScale(2, RoundingMode.HALF_UP).doubleValue()))
+    println (BigDecimal(0.695647718514339).setScale(3, RoundingMode.HALF_UP))
   }
+
 }
