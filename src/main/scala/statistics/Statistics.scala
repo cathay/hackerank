@@ -82,7 +82,9 @@ object Statistics {
 //  }
 
   def main(args: Array[String]): Unit = {
-    println (BigDecimal(0.695647718514339).setScale(3, RoundingMode.HALF_UP))
+    println(1 - 0.84134)
+    println(1- 0.15866)
+    println(0.15866)
   }
 
 }
