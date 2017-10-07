@@ -6,6 +6,7 @@ object BigSorting {
     //println("31415926535897932384626433832795".toLong)
     sort(Array("31415926535897932384626433832795", "1", "3", "10", "5", "3"))
 
+   println( Array(1, 4, 5, 7, 9, 12).indexOf(4))
   }
 
   def sort(numerics: Array[String]) = {
